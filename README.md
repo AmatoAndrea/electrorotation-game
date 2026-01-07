@@ -1,6 +1,7 @@
 # Electrorotation Game
 
 [![Documentation Status](https://readthedocs.org/projects/electrorotation-game/badge/?version=latest)](https://electrorotation-game.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/1129930758.svg)](https://doi.org/10.5281/zenodo.18176276)
 ![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)
 ![License](https://img.shields.io/badge/license-MPL--2.0-green)
 ![Status](https://img.shields.io/badge/status-active-success)
