@@ -1,0 +1,1287 @@
+created_date: '2025-12-04 11:43:49'
+video:
+  resolution:
+  - 640
+  - 480
+  fps: 60.0
+  duration_s: 4.5
+  magnification: 10.93
+  pixel_size_um: 7.4
+  background_frames_dir: templates/backgrounds/test_video
+  background_ref_mag: 10.93
+  noise_enabled: true
+  noise_stddev: 20.0
+schedule:
+  default_delay_s: 0.0
+  intervals:
+  - frequency_khz: 60.0
+    duration_s: 4.0
+    angular_velocity_rad_s: -3.0
+    delay_after_s: 0.5
+cells:
+- id: cell_2
+  radius_um: 7.347077049762738
+  template: templates/cell_lines/U266/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_2_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 35.3582950263112
+    - 199.32124928847347
+    end:
+    - 190.39730898793724
+    - 153.2338960429892
+    control_points:
+    - - 20.634323746254623
+      - 95.79061614399217
+- id: cell_3
+  radius_um: 6.515687199443863
+  template: templates/cell_lines/U266/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 380.83505371909195
+    - 432.18635702456396
+    end:
+    - 373.2729928860879
+    - 325.57979281710857
+    control_points: null
+- id: cell_0_01
+  radius_um: 9.834912412411022
+  template: templates/cell_lines/OPM-2/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 275.23183251055724
+    - 460.9332540296199
+    end:
+    - 277.0209871282168
+    - 323.11467760399063
+    control_points: null
+- id: cell_3_01
+  radius_um: 7.5333567259104495
+  template: templates/cell_lines/OPM-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 494.5739130434783
+    - 23.913043478260853
+    end:
+    - 420.75760214113524
+    - 132.14933813721532
+    control_points: null
+- id: TEST
+  radius_um: 7.938813613398643
+  template: templates/cell_lines/NCI-H929/cells/TEST.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/TEST_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 349.20631711374944
+    - 19.391304347826065
+    end:
+    - 382.2082506411402
+    - 132.44914448297436
+    control_points:
+    - - 310.2811969209231
+      - 69.13761571974804
+    - - 422.9420664861405
+      - 69.13761571974804
+- id: cell_2_01
+  radius_um: 6.980506980833128
+  template: templates/cell_lines/NCI-H929/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 622.319792402707
+    - 264.16748529130956
+    end:
+    - 481.029153650731
+    - 357.1333729335408
+    control_points: null
+- id: cell_3_02
+  radius_um: 7.562349867289558
+  template: templates/cell_lines/NCI-H929/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 555.1652173913042
+    - 202.97391304347826
+    end:
+    - 399.89839558795916
+    - 188.6050150810934
+    control_points: null
+- id: cell_4_01
+  radius_um: 7.1559498873650895
+  template: templates/cell_lines/NCI-H929/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 547.2584910267929
+    - 134.77154753494682
+    end:
+    - 400.9688498290709
+    - 151.03317556341747
+    control_points: null
+- id: cell_0_02
+  radius_um: 8.093509910372882
+  template: templates/cell_lines/CaCo-2/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_0_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 444.8041975998548
+    - 30.49117483556126
+    end:
+    - 342.90394435780183
+    - 155.09780978718584
+    control_points:
+    - - 477.95841880491525
+      - 158.8118836157214
+- id: cell_4_02
+  radius_um: 7.366907253305133
+  template: templates/cell_lines/CaCo-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 293.9528115961104
+    - 181.1957048744018
+    end:
+    - 400.1175232076232
+    - 208.9279512806073
+    control_points: null
+- id: cell_8
+  radius_um: 8.183141767533503
+  template: templates/cell_lines/CaCo-2/cells/cell_8.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_8_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 44.73079151425502
+    - 314.20869565217396
+    end:
+    - 190.2215395069326
+    - 190.60763320534423
+    control_points:
+    - - 82.85007855407201
+      - 381.72990355919393
+    - - 134.91964377146337
+      - 162.87772964615039
+- id: cell_3_03
+  radius_um: 7.552697853315044
+  template: templates/cell_lines/CaCo-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 46.37594216210867
+    - 255.42608695652171
+    end:
+    - 190.62273118221395
+    - 170.99984179236168
+    control_points: null
+- id: cell_4_04
+  radius_um: 7.366907253305133
+  template: templates/cell_lines/CaCo-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 371.81054677290484
+    - 24.562971963194745
+    end:
+    - 241.8389848761662
+    - 159.3778028653682
+    control_points: null
+- id: cell_0_03
+  radius_um: 7.581617031936121
+  template: templates/cell_lines/CCD-841/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 58.817007288770576
+    - 112.09579819446405
+    end:
+    - 189.6305174096572
+    - 134.41381951681728
+    control_points: null
+- id: cell_2_03
+  radius_um: 7.115058410384381
+  template: templates/cell_lines/CCD-841/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 321.987352742608
+    - 34.76521739130435
+    end:
+    - 363.2972083174197
+    - 133.76684832305287
+    control_points: null
+- id: cell_1_01
+  radius_um: 7.6104263201490925
+  template: templates/cell_lines/OPM-2/cells/cell_1.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_1_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 298.85106192557794
+    - 155.4272077591624
+    end:
+    - 400.96537093585465
+    - 168.57276883252666
+    control_points: null
+- id: cell_4_05
+  radius_um: 8.784996005422114
+  template: templates/cell_lines/OPM-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_4_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 424.4040353677963
+    - 18.856209280839785
+    end:
+    - 400.7953431857655
+    - 133.35727568175383
+    control_points:
+    - - 442.44316753765054
+      - 84.24587291607942
+- id: cell_0_04
+  radius_um: 7.581617031936121
+  template: templates/cell_lines/CCD-841/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 194.27490989732377
+    - 62.30493542917064
+    end:
+    - 281.6588377646173
+    - 151.8275478713281
+    control_points: null
+- id: cell_1_02
+  radius_um: 7.581617031936121
+  template: templates/cell_lines/CCD-841/cells/cell_1.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_1_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 258.3875197047942
+    - 22.255958556075235
+    end:
+    - 294.07375596293133
+    - 138.54605633438263
+    control_points:
+    - - 226.23063783386277
+      - 80.40100744522893
+    - - 326.2306378338628
+      - 80.40100744522893
+- id: cell_2_04
+  radius_um: 7.115058410384381
+  template: templates/cell_lines/CCD-841/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_2_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 456.09553849762483
+    - 293.81727762805957
+    end:
+    - 330.4896780695867
+    - 201.3903371351284
+    control_points:
+    - - 349.8839126314319
+      - 327.1864160772462
+- id: cell_4_06
+  radius_um: 8.784996005422114
+  template: templates/cell_lines/OPM-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 320.2671866789671
+    - 316.9217391304348
+    end:
+    - 310.3786002546617
+    - 208.92932966139247
+    control_points: null
+- id: cell_1_04
+  radius_um: 7.6104263201490925
+  template: templates/cell_lines/OPM-2/cells/cell_1.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_1_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 547.9709608446053
+    - 251.53214520593926
+    end:
+    - 340.8310160417656
+    - 189.03776382417087
+    control_points: null
+- id: cell_0_05
+  radius_um: 7.901974372331556
+  template: templates/cell_lines/NCI-H929/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 129.6821994448904
+    - 156.10442479223366
+    end:
+    - 275.55076911127077
+    - 169.05227143577537
+    control_points: null
+- id: cell_2_05
+  radius_um: 8.472201644069118
+  template: templates/cell_lines/CaCo-2/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 168.10434782608692
+    - 261.75652173913045
+    end:
+    - 277.72255120506037
+    - 188.15767052181621
+    control_points: null
+- id: cell_3_05
+  radius_um: 7.552697853315044
+  template: templates/cell_lines/CaCo-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 307.49360600072544
+    - 17.80984107868363
+    end:
+    - 311.81297282039765
+    - 133.23103715995794
+    control_points: null
+- id: cell_7
+  radius_um: 8.08449206923226
+  template: templates/cell_lines/CaCo-2/cells/cell_7.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_7_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 397.3405513004738
+    - 19.39130434782608
+    end:
+    - 330.6256578571351
+    - 138.08398924072145
+    control_points: null
+- id: cell_8_01
+  radius_um: 8.183141767533503
+  template: templates/cell_lines/CaCo-2/cells/cell_8.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_8_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 224.79971522540615
+    - 297.57652759810685
+    end:
+    - 291.78588441957606
+    - 203.393349643348
+    control_points: null
+- id: cell_0_06
+  radius_um: 7.581617031936121
+  template: templates/cell_lines/CCD-841/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 495.7043478260869
+    - 163.3913043478261
+    end:
+    - 347.4024253311716
+    - 173.6954276276099
+    control_points: null
+- id: cell_0_07
+  radius_um: 8.093509910372882
+  template: templates/cell_lines/CaCo-2/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 88.74782608695645
+    - 185.095652173913
+    end:
+    - 169.91180210749644
+    - 284.29527021367784
+    control_points: null
+- id: cell_2_07
+  radius_um: 8.472201644069118
+  template: templates/cell_lines/CaCo-2/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 130.21098741358503
+    - 176.38213124535815
+    end:
+    - 187.18490045706338
+    - 279.4777834192712
+    control_points: null
+- id: cell_3_07
+  radius_um: 7.552697853315044
+  template: templates/cell_lines/CaCo-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 259.58404104653414
+    - 177.74113572601746
+    end:
+    - 203.0134701551139
+    - 278.7323445837847
+    control_points: null
+- id: cell_4_08
+  radius_um: 7.366907253305133
+  template: templates/cell_lines/CaCo-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_4_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 13.686956521739065
+    - 261.9652173913044
+    end:
+    - 160.65810035351217
+    - 300.453797244043
+    control_points:
+    - - 34.911658872408225
+      - 281.6616812307172
+    - - 134.91165887240822
+      - 281.6616812307172
+- id: cell_7_01
+  radius_um: 8.08449206923226
+  template: templates/cell_lines/CaCo-2/cells/cell_7.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_7_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 48.95652173913035
+    - 352.4
+    end:
+    - 154.74314707407527
+    - 316.8909671042088
+    control_points:
+    - - 134.4063561457333
+      - 406.5411357260175
+- id: cell_8_02
+  radius_um: 8.183141767533503
+  template: templates/cell_lines/CaCo-2/cells/cell_8.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_8_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 122.5044433161458
+    - 446.2569565217391
+    end:
+    - 168.14228160672303
+    - 346.1771597054775
+    control_points:
+    - - 53.079884200564834
+      - 365.4692320266517
+- id: cell_0_08
+  radius_um: 7.581617031936121
+  template: templates/cell_lines/CCD-841/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_0_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 78.8
+    - 403.9478260869565
+    end:
+    - 156.1755363744779
+    - 332.92479481231646
+    control_points:
+    - - 200.6877681872389
+      - 425.4102234931148
+- id: TEST_01
+  radius_um: 7.938813613398643
+  template: templates/cell_lines/NCI-H929/cells/TEST.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/TEST_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 180.99130434782606
+    - 467.25217391304346
+    end:
+    - 180.72534958219998
+    - 354.51161718420195
+    control_points:
+    - - 82.47571826936087
+      - 404.09928685297047
+    - - 264.7713704432739
+      - 416.7601564181879
+- id: cell_2_08
+  radius_um: 6.980506980833128
+  template: templates/cell_lines/NCI-H929/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 209.9304347826087
+    - 209.51304347826084
+    end:
+    - 196.54895379719295
+    - 327.1246098890218
+    control_points: null
+- id: cell_3_08
+  radius_um: 7.5333567259104495
+  template: templates/cell_lines/OPM-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 303.3569036993655
+    - 255.54925843783843
+    end:
+    - 209.9381573637254
+    - 327.1246098890218
+    control_points: null
+- id: cell_4_09
+  radius_um: 8.784996005422114
+  template: templates/cell_lines/OPM-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_4_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 148.43478260869563
+    - 428.3652173913044
+    end:
+    - 243.04704288008725
+    - 355.19909194916795
+    control_points:
+    - - 234.62786926613055
+      - 446.04302423545363
+- id: cell_1_07
+  radius_um: 6.703306703561834
+  template: templates/cell_lines/U266/cells/cell_1.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_1_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 323.8782608695652
+    - 335.2173913043478
+    end:
+    - 209.93815736372537
+    - 340.5138134555543
+    control_points: null
+- id: cell_0_09
+  radius_um: 9.617415102660342
+  template: templates/cell_lines/U266/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 433.3043478260871
+    - 460.6600531782807
+    end:
+    - 310.6876703085882
+    - 355.5434624383644
+    control_points: null
+- id: cell_2_09
+  radius_um: 7.347077049762738
+  template: templates/cell_lines/U266/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 339.25217391304335
+    - 424.74782608695654
+    end:
+    - 209.93815736372534
+    - 354.51161718420195
+    control_points: null
+- id: cell_7_02
+  radius_um: 8.08449206923226
+  template: templates/cell_lines/CaCo-2/cells/cell_7.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_7_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 233.44347826086954
+    - 467.25217391304363
+    end:
+    - 195.94035363507777
+    - 356.3374176705473
+    control_points: null
+- id: cell_2_10
+  radius_um: 6.980506980833128
+  template: templates/cell_lines/NCI-H929/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_2_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 546.9290005519117
+    - 79.16061424674886
+    end:
+    - 439.4713246988237
+    - 132.18603518460208
+    control_points:
+    - - 559.2175539297155
+      - 141.84723775915376
+- id: cell_2_11
+  radius_um: 8.472201644069118
+  template: templates/cell_lines/CaCo-2/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 107.23269565217389
+    - 347.8782608695652
+    end:
+    - 250.2767751754821
+    - 338.1996405449614
+    control_points: null
+- id: cell_0_10
+  radius_um: 8.093509910372882
+  template: templates/cell_lines/CaCo-2/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 426.9739130434782
+    - 333.48951203911065
+    end:
+    - 304.07750467336365
+    - 338.0167726324861
+    control_points: null
+- id: cell_3_09
+  radius_um: 7.552697853315044
+  template: templates/cell_lines/CaCo-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 379.486033778241
+    - 262.5078260869565
+    end:
+    - 298.84477572566334
+    - 320.02224016236715
+    control_points: null
+- id: cell_4_10
+  radius_um: 7.366907253305133
+  template: templates/cell_lines/CaCo-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 263.504
+    - 190.44939130434784
+    end:
+    - 276.15458872753595
+    - 271.84681766081974
+    control_points: null
+- id: cell_7_03
+  radius_um: 8.08449206923226
+  template: templates/cell_lines/CaCo-2/cells/cell_7.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_7_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 131.68626086956522
+    - 267.7892173913043
+    end:
+    - 253.95056996941895
+    - 320.7563359925377
+    control_points:
+    - - 130.1575458542747
+      - 357.57712451800785
+    - - 227.44450237601382
+      - 222.82929843105128
+- id: cell_0_11
+  radius_um: 8.093509910372882
+  template: templates/cell_lines/CaCo-2/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 421.6314697319223
+    - 224.1634782608695
+    end:
+    - 294.24681921894404
+    - 302.944671434894
+    control_points: null
+- id: cell_8_03
+  radius_um: 8.183141767533503
+  template: templates/cell_lines/CaCo-2/cells/cell_8.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_8_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 193.07728190138184
+    - 229.10800852894724
+    end:
+    - 258.54617719178077
+    - 303.2207685731051
+    control_points: null
+- id: cell_7_04
+  radius_um: 8.08449206923226
+  template: templates/cell_lines/CaCo-2/cells/cell_7.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_7_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 106.83478260869563
+    - 314.4173913043478
+    end:
+    - 190.21741985850716
+    - 206.87702750754673
+    control_points: null
+- id: cell_0_12
+  radius_um: 8.093509910372882
+  template: templates/cell_lines/CaCo-2/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_0_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 241.05672010610743
+    - 383.76278260869566
+    end:
+    - 339.6590479027086
+    - 337.17176612580806
+    control_points: null
+- id: cell_7_05
+  radius_um: 8.08449206923226
+  template: templates/cell_lines/CaCo-2/cells/cell_7.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_7_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 307.6
+    - 459.11304347826086
+    end:
+    - 340.40521228485915
+    - 356.9499433510611
+    control_points: null
+- id: cell_3_10
+  radius_um: 7.552697853315044
+  template: templates/cell_lines/CaCo-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 250.77078260869567
+    - 278.424347826087
+    end:
+    - 337.9545463503532
+    - 317.1634208186853
+    control_points: null
+- id: cell_4_11
+  radius_um: 7.366907253305133
+  template: templates/cell_lines/CaCo-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 449.8979896878108
+    - 233.73216581632943
+    end:
+    - 364.9065585106498
+    - 310.9865951498546
+    control_points: null
+- id: cell_5
+  radius_um: 8.70994483041425
+  template: templates/cell_lines/CaCo-2/cells/cell_5.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_5_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 260.031304347826
+    - 221.1248695652174
+    end:
+    - 339.3315359660718
+    - 278.531653740869
+    control_points: null
+- id: cell_7_06
+  radius_um: 8.08449206923226
+  template: templates/cell_lines/CaCo-2/cells/cell_7.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_7_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 535.1339130434783
+    - 426.91826086956513
+    end:
+    - 404.68466182463675
+    - 356.2522883907511
+    control_points: null
+- id: cell_8_04
+  radius_um: 8.183141767533503
+  template: templates/cell_lines/CaCo-2/cells/cell_8.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_8_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 248.45565217391305
+    - 241.12904347826088
+    end:
+    - 337.8090437412788
+    - 298.86801110543433
+    control_points: null
+- id: TEST_02
+  radius_um: 7.938813613398643
+  template: templates/cell_lines/NCI-H929/cells/TEST.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/TEST_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 439.24219596824736
+    - 199.16168490835545
+    end:
+    - 356.65303254159704
+    - 293.16039696218286
+    control_points: null
+- id: cell_4_12
+  radius_um: 7.1559498873650895
+  template: templates/cell_lines/NCI-H929/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 379.0758690669295
+    - 209.68913122802792
+    end:
+    - 387.0646429247654
+    - 293.2201018383431
+    control_points: null
+- id: cell_0_14
+  radius_um: 7.901974372331556
+  template: templates/cell_lines/NCI-H929/cells/cell_0.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_0_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 556.6573913043479
+    - 336.0116234528209
+    end:
+    - 404.12
+    - 335.6272488987933
+    control_points:
+    - - 483.33944698655495
+      - 206.0286956521739
+    - - 470.29596872568544
+      - 440.82
+- id: cell_3_11
+  radius_um: 7.562349867289558
+  template: templates/cell_lines/NCI-H929/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 529.3067251665115
+    - 276.8182416478821
+    end:
+    - 404.6431108661263
+    - 316.1676810983356
+    control_points: null
+- id: cell_4_13
+  radius_um: 7.1559498873650895
+  template: templates/cell_lines/NCI-H929/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 515.4191304347826
+    - 246.59130434782605
+    end:
+    - 405.7933016211169
+    - 297.5499772382858
+    control_points: null
+- id: cell_3_12
+  radius_um: 7.5333567259104495
+  template: templates/cell_lines/OPM-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 224.97878260869564
+    - 213.74698524283122
+    end:
+    - 265.5038575703349
+    - 287.28833516679254
+    control_points: null
+- id: cell_2_12
+  radius_um: 8.70994483041425
+  template: templates/cell_lines/OPM-2/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 432.15735277494696
+    - 161.00911117008206
+    end:
+    - 442.00353614438205
+    - 277.603739661174
+    control_points: null
+- id: cell_3_13
+  radius_um: 7.5333567259104495
+  template: templates/cell_lines/OPM-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 316.64347826086964
+    - 364.1565217391304
+    end:
+    - 441.6198844117973
+    - 338.084878932198
+    control_points: null
+- id: cell_4_14
+  radius_um: 8.784996005422114
+  template: templates/cell_lines/OPM-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 316.15818381076343
+    - 273.4790919053816
+    end:
+    - 440.95818381076344
+    - 316.8877875575555
+    control_points: null
+- id: cell_3_14
+  radius_um: 6.515687199443863
+  template: templates/cell_lines/U266/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 601.424840402797
+    - 259.8256714386135
+    end:
+    - 479.1410749310061
+    - 317.859432779917
+    control_points: null
+- id: cell_3_15
+  radius_um: 7.5333567259104495
+  template: templates/cell_lines/OPM-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_3_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 597.8956521739129
+    - 198.66086956521738
+    end:
+    - 462.5972476988871
+    - 317.36611885059506
+    control_points:
+    - - 572.750797762487
+      - 318.6047985557323
+- id: cell_3_16
+  radius_um: 7.5333567259104495
+  template: templates/cell_lines/OPM-2/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 530.6430627429613
+    - 180.750319194406
+    end:
+    - 462.3057591883806
+    - 276.61118875962336
+    control_points: null
+- id: TEST_03
+  radius_um: 7.938813613398643
+  template: templates/cell_lines/NCI-H929/cells/TEST.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/TEST_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 338.01697578643956
+    - 397.94824160486473
+    end:
+    - 441.6198844117972
+    - 297.9846862851934
+    control_points: null
+- id: cell_3_17
+  radius_um: 7.562349867289558
+  template: templates/cell_lines/NCI-H929/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 295.1642072809717
+    - 436.23973859969544
+    end:
+    - 442.5729029331456
+    - 357.56147773013015
+    control_points: null
+- id: cell_1_09
+  radius_um: 7.581617031936121
+  template: templates/cell_lines/CCD-841/cells/cell_1.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_1_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 141.58954616758012
+    - 63.323446350976795
+    end:
+    - 228.07072824863243
+    - 168.8691376406624
+    control_points: null
+- id: cell_2_13
+  radius_um: 7.115058410384381
+  template: templates/cell_lines/CCD-841/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/CCD-841/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 357.3391304347827
+    - 249.30434782608694
+    end:
+    - 240.36651086530387
+    - 196.6296237001083
+    control_points: null
+- id: cell_1_12
+  radius_um: 6.703306703561834
+  template: templates/cell_lines/U266/cells/cell_1.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_1_mask.png
+  trajectory:
+    type: cubic
+    start:
+    - 410.6956521739131
+    - 255.05539902507564
+    end:
+    - 248.94188402356008
+    - 208.11577446246636
+    control_points:
+    - - 308.3911769262931
+      - 325.3135469483708
+    - - 345.2734319805191
+      - 151.70325697653465
+- id: cell_2_14
+  radius_um: 7.347077049762738
+  template: templates/cell_lines/U266/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/U266/masks/cell_2_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 220.16724669468434
+    - 19.311014174880828
+    end:
+    - 228.02269681448306
+    - 134.5737039257291
+    control_points:
+    - - 266.5993195806707
+      - 68.35105470247886
+- id: cell_8_05
+  radius_um: 8.183141767533503
+  template: templates/cell_lines/CaCo-2/cells/cell_8.png
+  mask:
+    path: templates/cell_lines/CaCo-2/masks/cell_8_mask.png
+  trajectory:
+    type: parabolic
+    start:
+    - 288.34782608695645
+    - 18.112513442132617
+    end:
+    - 244.136000940122
+    - 143.8749012932857
+    control_points:
+    - - 336.7810439483218
+      - 103.60240301988306
+- id: TEST_04
+  radius_um: 7.938813613398643
+  template: templates/cell_lines/NCI-H929/cells/TEST.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/TEST_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 138.22608695652164
+    - 34.713043478260815
+    end:
+    - 208.8229760309189
+    - 134.06168396663483
+    control_points: null
+- id: cell_2_06
+  radius_um: 8.70994483041425
+  template: templates/cell_lines/OPM-2/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 95.72173913043468
+    - 260.79999999999995
+    end:
+    - 211.1512906690149
+    - 174.22511147378972
+    control_points: null
+- id: cell_3_04
+  radius_um: 7.562349867289558
+  template: templates/cell_lines/NCI-H929/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 314.5739130434781
+    - 233.05490918311438
+    end:
+    - 228.4162508927339
+    - 184.06630088079723
+    control_points: null
+- id: cell_3_06
+  radius_um: 7.562349867289558
+  template: templates/cell_lines/NCI-H929/cells/cell_3.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_3_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 624.7652173913042
+    - 241.8086956521739
+    end:
+    - 480.586434704295
+    - 277.92786057528104
+    control_points: null
+- id: cell_4
+  radius_um: 7.1559498873650895
+  template: templates/cell_lines/NCI-H929/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 346.8877875575556
+    - 464.6753522442075
+    end:
+    - 462.00819391953445
+    - 356.89516038698423
+    control_points: null
+- id: cell_2_02
+  radius_um: 6.980506980833128
+  template: templates/cell_lines/NCI-H929/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 361.2937503772405
+    - 185.9480971973529
+    end:
+    - 381.0136240048209
+    - 311.0277378094293
+    control_points: null
+- id: cell_4_03
+  radius_um: 8.784996005422114
+  template: templates/cell_lines/OPM-2/cells/cell_4.png
+  mask:
+    path: templates/cell_lines/OPM-2/masks/cell_4_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 495.94991304347826
+    - 211.63965217391305
+    end:
+    - 403.36637389860886
+    - 276.65398002414105
+    control_points: null
+- id: cell_2_15
+  radius_um: 6.980506980833128
+  template: templates/cell_lines/NCI-H929/cells/cell_2.png
+  mask:
+    path: templates/cell_lines/NCI-H929/masks/cell_2_mask.png
+  trajectory:
+    type: linear
+    start:
+    - 352.4118260869565
+    - 226.68800000000002
+    end:
+    - 286.49555129989426
+    - 286.8144351700107
+    control_points: null
+metadata:
+  scenario: cell_2
+  edge_feather:
+    enabled: true
+    inside_pixels: 3.0
+    outside_pixels: 3.0

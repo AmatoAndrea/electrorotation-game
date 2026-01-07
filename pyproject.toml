@@ -1,0 +1,32 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "electrorotation-game"
+version = "0.1.0"
+description = "Simulator for rotating cells (electrorotation-game)"
+readme = "README.md"
+license = "MPL-2.0"
+authors = ["Andrea Amato <a.amato@studium.unict.it>"]
+packages = [{ include = "rot_game", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+numpy = "*"
+scipy = "*"
+opencv-python-headless = "^4.12.0.88"
+PySide6 = "^6.8.3"
+pyqtgraph = "^0.13.4"
+pydantic = ">=1.10,<2.0"
+python-dotenv = "*"
+pyyaml = "*"
+matplotlib = "*"
+sphinx = { version = "^8.0", optional = true }
+sphinx-rtd-theme = { version = "^3.0.2", optional = true }
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx-rtd-theme"]
+
+[tool.poetry.scripts]
+rot-game = "rot_game.cli:main"
